@@ -1,0 +1,76 @@
+body{
+    background: linear-gradient(to bottom, #c5c5c5, #878787);
+}
+
+
+
+.outline{
+    background-color: grey;
+    height: 700px;
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 5%;
+    border: 10px solid black;
+}
+
+.title{
+    font-weight: bold;
+    font-family: 'Pixelify Sans';
+    font-size: 50px;
+}
+
+#output, #chosen, #compChoice, #score{
+    font-weight: normal; 
+    font-size: 20px;
+    font-family: 'Pixelify Sans';
+}
+
+h1{
+    font-family: 'Pixelify Sans';
+}
+
+
+#result{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#rockbtn img {
+    width: 70px;
+    height: 70px;
+}
+
+#paperbtn.disabled, #scissorsbtn.disabled, #rockbtn.disabled  {
+    filter: grayscale(100%);
+}
+
+
+#paperbtn img {
+    width: 70px;
+    height: 70px;
+}
+
+#scissorsbtn img {
+    width: 70px;
+    height: 70px;
+}
+.buttons{
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    gap: 15px;
+    padding: 20px;
+
+}
+
+.buttons button{
+    color: black;
+    flex: 1;
+    height: 100px;
+    
+
+}
